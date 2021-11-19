@@ -1,0 +1,828 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(201, 201, 201)!important;
+    font-size: 1em!important;
+    font-family: 'Raleway', sans-serif!important;
+}
+
+h1 {
+    margin: 3%!important;
+    float: left!important;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #BD3A49;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #A2292E;
+    padding-bottom: 0.5em;
+}
+
+h4 {
+    font-size: 1em;
+    color: #A2292E;
+    padding-bottom: 0.5em;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+}
+
+
+
+#carro {
+    position: fixed;
+    float:right;
+    margin-left: 30px;
+    background-color:white ;
+    width: 90px;
+    border: solid;
+    border-color: #A2292E;
+    padding-left: 13px;
+    padding-top: 23px;
+    padding-bottom: 14px;
+    padding-right: 23px;
+}
+
+#carro:hover {
+    border-color:#A2292E ;
+    background-color:#d8b6b7 ;
+}
+div.ajuste {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+/* ------------ CABECERA ----------- */
+
+header {
+    background-color: white;
+}
+
+header form {
+    float: right;
+    margin: 3%;
+}
+
+header form input {
+    font-family: "Raleway", sans-serif;
+    padding: 0.4em 0.8em;
+    border-width: 0.05em;
+    border-color: #c9c9c9;
+}
+
+.benviar {
+    padding: 0 0 0 0.4em;
+    margin: 0;
+}
+
+
+/* ---------- MENÚ DE NAVEGACIÓN --------- */
+
+nav {
+    background-color: #A2292E;
+    padding: 1% 0;
+    margin-bottom: 0.7em;
+}
+
+.burguer {
+    background-color: #A2292E;
+}
+
+.burguer:hover {
+    background-color: #A2292E;
+}
+
+nav>div>ul>li>a {
+    display: none;
+}
+
+nav div li ul {
+    display: inline;
+    background-color: #A2292E;
+    padding: 1% 0;
+}
+
+nav li ul li {
+    display: inline-block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 3% 0 3%;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0.5em;
+    border-radius: 0.4em;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 0.4em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #BD3A49;
+    color: white;
+
+}
+
+nav a.actual:hover{
+    background-color: black!important;
+}
+
+
+nav li:hover {
+    background-color: #A2292E;
+}
+
+nav li.actual {
+    background-color: black;
+}
+
+/*
+nav li.actual:hover {
+    background-color: black!important;
+}*/
+
+nav li.actual a {
+    color: white;
+}
+
+
+/* ---------- BLOQUES PRINCIPALES -------- */
+
+#cuerpo {
+    background-image: linear-gradient(#EA8597, white);
+}
+
+
+/* -- SLIDER --- */
+
+#slider {
+    padding: 3%;
+}
+
+#imagencab {
+    display: none;
+}
+
+
+/* --- MAIN --- */
+
+.cajas {
+    margin-left: 3%;
+}
+
+.caja {
+    width: 27%;
+    float: left;
+    background-color: #BD3A49;
+}
+
+#caja1 {
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    padding: 2%;
+}
+
+#caja1 img {
+    float: left;
+    padding-right: 5%;
+}
+
+#caja1 p {
+    font-size: 0.7em;
+    color: white;
+}
+
+#caja2 {
+    border-radius: 0px;
+    margin: 0 2%;
+    padding: 2%;
+}
+
+#caja2 img {
+    float: left;
+    padding-right: 5%;
+}
+
+#caja2 p {
+    font-size: 0.7em;
+    color: white;
+}
+
+#caja3 {
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    padding: 2%;
+}
+
+#caja3 img {
+    float: left;
+    padding-right: 5%;
+}
+
+#caja3 p {
+    font-size: 0.7em;
+    color: white;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+/* --- SECTION --- */
+
+#articles {
+    padding: 3% 2% 3% 3%;
+    float: left;
+    width: 62%;
+    font-size: 0.9em;
+}
+
+#articles p {
+    padding-bottom: 0.5em;
+}
+
+.estrechoi {
+    padding-top: 3%;
+    width: 48%;
+    float: left;
+}
+
+.estrechod {
+    padding-top: 3%;
+    width: 48%;
+    float: right;
+}
+
+section.index {
+    line-height: 1.5em;
+}
+
+/* --- ASIDE --- */
+
+aside {
+    padding: 3% 3% 0 0;
+    margin: 0;
+    float: right;
+    width: 30%;
+    font-size: 0.8em;
+}
+
+aside p {
+    padding-bottom: 0.5em;
+}
+
+aside img {
+    padding-top: 1em;
+}
+
+aside.index {
+    line-height: 1.8em;
+}
+
+
+/*----TIENDAONLINE----*/
+
+.row{
+    margin-left: 0px!important;
+}
+
+.tiendaonline a{
+    background-color: #EA8597; 
+    border-color: black;
+    color:black;
+    font-weight:5em;
+}
+
+/*.tiendaonline a:hover{
+    background-color: #EA8597; 
+    border-color: black;
+    color:black;
+    font-weight:5em;
+}*/
+
+
+
+/* --- FOOTER --- */
+
+footer {
+    clear: both;
+    background-color: black;
+    color: white;
+    font-size: 0.7em;
+    padding: 3% 0;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.columna {
+    width: 29%;
+    float: left;
+    padding-left: 3%;
+}
+
+footer h4 {
+    color: white;
+    font-size: 1.5em;
+}
+
+footer form {
+    padding: 1em 0;
+}
+
+footer .email {
+    width: 45%;
+    height: 1.8em;
+    font-family: "Raleway", sans-serif;
+    margin-right: 3%;
+}
+
+footer form button {
+    padding: 0.4em 1.5em;
+    font-family: "Raleway", sans-serif;
+    background-color: #EA8597;
+    border-radius: 0.4em;
+}
+
+.checkbox {
+    margin-top: 1em;
+}
+
+#redes {
+    margin: 3% 0;
+}
+
+#redes img {
+    margin: 0 2.5%;
+}
+
+.linea {
+    border-style: solid;
+    border-width: 0.01em;
+    border-color: #ffffff;
+    margin: 30px 30px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #BD3A49;
+}
+
+.medio {
+    text-decoration: none;
+    line-height: 2.25em;
+}
+
+
+/* -- Barra de uso de cookies -- */
+
+.dnone{
+    display: none;
+}
+
+#cookie-bar {
+    background: #111111;
+    line-height: 1.5em;
+    color: white;
+    text-align: center;
+    padding: 3px 0;
+    font-size: 0.9em;
+}
+
+#cookie-bar.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#cookie-bar.fixed.bottom {
+    bottom: 0;
+    top: auto;
+}
+
+#cookie-bar p {
+    margin: 0;
+    padding: 0;
+}
+
+#cookie-bar a {
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 0 6px;
+    margin-left: 8px;
+}
+
+#cookie-bar .cb-enable {
+    background: #BD3A49;
+}
+
+#cookie-bar .cb-enable:hover {
+    background: #EA8597;
+}
+
+#cookie-bar .cb-disable {
+    background: #990000;
+}
+
+#cookie-bar .cb-disable:hover {
+    background: #bb0000;
+}
+
+#cookie-bar .cb-policy {
+    background: #0033bb;
+}
+
+#cookie-bar .cb-policy:hover {
+    background: #0055dd;
+}
+
+
+/* --- Pantallas menores de 1100px --- */
+
+@media screen and (max-width: 1150px) {
+    h2 {
+        font-size: 1.1em;
+        
+    }
+    h4 {
+        font-size: 1em;
+        color: #A2292E;
+        padding-bottom: 0.5em;
+    }
+    .contenedor {
+        width: 100%;
+    }
+    nav {
+        margin-bottom: 0;
+    }
+    /* ---------- BLOQUES PRINCIPALES -------- */
+    /* --- SECTION --- */
+    #articles {
+        padding: 3% 3% 3% 3%;
+        float: none;
+        width: 94%;
+        font-size: 0.9em;
+    }
+    /* --- ASIDE --- */
+    aside {
+        padding: 3% 3% 3% 3%;
+        float: none;
+        width: 94%;
+        font-size: 0.9em;
+        overflow: hidden;
+    }
+    aside p {
+        padding-bottom: 0.5em;
+    }
+    aside img {
+        display: none;
+    }
+    /* --- FOOTER --- */
+    footer {
+        clear: both;
+        background-color: black;
+        color: white;
+        font-size: 0.7em;
+        padding: 3% 0;
+        text-align: center;
+        margin-top: 0;
+    }
+    .columna {
+        width: 29%;
+        float: left;
+        padding-left: 3%;
+    }
+    footer h4 {
+        color: white;
+        font-size: 1.5em;
+    }
+    footer form {
+        padding: 1em 0;
+    }
+    footer .email {
+        width: 45%;
+        height: 1.8em;
+        font-family: "Raleway", sans-serif;
+        margin-right: 3%;
+    }
+    footer form button {
+        width: 20%;
+        background-color: #EA8597;
+        height: 2.3em;
+        font-family: "Raleway", sans-serif;
+    }
+    .checkbox {
+        margin-top: 1em;
+    }
+    #redes {
+        margin: 3% 0;
+    }
+    #redes img {
+        margin: 0 2.5%;
+    }
+    .linea {
+        border-style: solid;
+        border-color: #ffffff;
+        margin: 30px 30px;
+    }
+    footer a {
+        color: white;
+    }
+    footer a:hover {
+        color: #BD3A49;
+    }
+    .medio {
+        text-decoration: none;
+    }
+    /* --- Pantallas menores de 950px --- */
+    @media screen and (max-width: 950px) {
+        img {
+            max-width: 100%;
+        }
+        /* --- HEADER --- */
+        header h1 img {
+            min-width: 75%!important;
+            padding-top: 4%!important;
+        }
+        
+        header form{
+            padding-bottom: 4%;
+            
+        }
+
+        h1 {
+            float: none!important;
+            margin: 0 0 2% 0!important;
+            text-align: center!important;
+        }
+        header form {
+            float: none;
+            background-color: #FFF;
+            margin: auto;
+        }
+        header form input {
+            display: block;
+            text-align: center;
+            font-size: 1.2em;
+            width: 70%;
+            margin: auto;
+            line-height: 0;
+        }
+        .benviar {
+            display: none;
+        }
+        /* --- NAV --- */
+        nav li {
+            display: block;
+            margin-right: 0em;
+            border-radius: 0;
+        }
+        nav>div>ul>li>a {
+            display: block;
+            background-color: #A2292E;
+        }
+        nav li ul {
+            display: block;
+            background-color: #A2292E;
+        }
+        nav li ul li {
+            display: block;
+            padding: 0.3em 0;
+            background-color: white;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 0;
+            font-size: 1.2em;
+            color: black;
+        }
+        nav img {
+            display: block;
+            padding: 1% 0;
+            max-width: 15%;
+        }
+        nav div li ul {
+            display: none;
+        }
+        nav li:hover ul {
+            display: block;
+        }
+        /* --- SLIDER --- */
+        #slider {
+            display: none;
+        }
+        #imagencab {
+            display: inline-block;
+        }
+        /* --- SECTIONS --- */
+        #cuerpo {
+            background-image: linear-gradient(#fdc1cc, white);
+        }
+        h2 {
+            margin-top: 2%;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+        .cajas {
+            margin: auto;
+        }
+        .caja {
+            width: 96%;
+            min-height: 75px;
+            float: none;
+        }
+        #caja1 {
+            border-radius: 0.4em;
+            margin-bottom: 2%;
+        }
+        #caja1 p {
+            font-size: 0.65em;
+        }
+        #caja2 {
+            border-radius: 0.4em;
+            margin: 0 0 2% 0;
+        }
+        #caja2 p {
+            font-size: 0.65em;
+        }
+        #caja3 {
+            border-radius: 0.4em;
+        }
+        #caja3 p {
+            font-size: 0.65em;
+        }
+        /* --- SECTION ARTICLES --- */
+        #articles h3 {
+            font-size: 1.5em;
+        }
+        #articles h4 {
+            font-size: 1.1em;
+        }
+        section {
+            padding: 2%;
+            float: none;
+            font-size: 1.3em;
+            width: 96%;
+        }
+        #articles p {
+            padding-bottom: 1em;
+            font-size: 1.1em;
+            line-height: 1.4em;
+        }
+        .estrechoi {
+            padding-top: 1%;
+            width: 96%;
+            float: none;
+            font-size: 1em;
+        }
+        .estrechod {
+            padding-top: 1%;
+            width: 96%;
+            float: none;
+            font-size: 1em;
+        }
+        /* --- ASIDE --- */
+        aside {
+            padding: 0 3% 3% 3%;
+            float: right;
+            width: 94%;
+            font-size: 1em;
+        }
+        aside p {
+            padding-bottom: 0.5em;
+            font-size: 1em;
+            line-height: 1.5em;
+        }
+        aside img {
+            padding-top: 2%;
+            width: 100%;
+            display: block;
+        }
+        /* --- FOOTER --- */
+        footer {
+            clear: none;
+            color: white;
+            font-size: 1em;
+            padding: 3% 0;
+            text-align: center;
+        }
+        .columna {
+            width: auto;
+            float: none;
+            padding: 2%;
+        }
+        footer h4 {
+            color: white;
+            font-size: 1.5em;
+        }
+        footer form {
+            padding: 0 0;
+        }
+        footer .email {
+            width: 90%;
+            height: 2em;
+            font-family: "Raleway", sans-serif;
+            border-radius: 0em;
+            margin-right: 0;
+            font-size: 1em;
+            text-align: center;
+        }
+        footer form button {
+            width: 50%;
+            border-radius: 0em;
+            background-color: #EA8597;
+            height: 2em;
+            font-family: "Raleway", sans-serif;
+            font-size: 1em;
+            margin-top: 1em;
+        }
+        .checkbox {
+            margin-top: 1em;
+            font-size: 0.8em;
+        }
+        #redes {
+            margin: 2% 0;
+        }
+        #redes img {
+            margin: 0 2.5%;
+            width: 7%;
+        }
+        .linea {
+            border-style: solid;
+            border-color: #ffffff;
+            margin: 5%;
+        }
+        footer a {
+            color: white;
+        }
+        footer a:hover {
+            color: #BD3A49;
+        }
+        #textopie {
+            display: none;
+        }
+        .pie {
+            margin: auto 3%;
+            font-size: 0.7em;
+        }
+    }
+    /* --- Pantallas menores de 860px --- */
+    @media screen and (max-width: 860px) {
+        h2 {
+            margin-top: 1.5%;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+        /* --- Pantallas menores de 860px --- */
+        @media screen and (max-width: 500px) {
+            h2 {
+                margin-top: 0;
+                font-size: 0.85em;
+                font-weight: bold;
+            }
+        }
+    }
+}
