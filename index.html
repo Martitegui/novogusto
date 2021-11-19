@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda online de alimentación para profesionales, chefs y particulares">
+    <meta name="author" content="Alejandro Martitegui">
+    <title>Novogusto :: Tu tienda online de gastronomía</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.cookiebar.js"></script>
+    <script>
+        /* -- Slider -- */
+
+        $(document).ready(function() {
+            $('.bxslider').bxSlider({
+                auto: true,
+                pager: false,
+                mode: 'fade',
+                captions: true
+            });
+        });
+
+        /* -- Política de Cookies -- */
+
+        $(document).ready(function() {
+            $.cookieBar();
+        });
+
+    </script>
+</head>
+
+<body>
+    <header id="logonovo">
+        <div class="contenedor">
+            <h1 >
+                <a href="index.html"><img src="img/logo_novogusto.svg" alt="Logotipo Novogusto" title="Inicio"></a>
+            </h1>
+            <form action="" method="get">
+                <input type="search" name="buscar" required placeholder=" Buscar...">
+                <input class="benviar" type="image" src="img/lupa.png" alt="Enviar">
+            </form>
+            <div class="ajuste"></div>
+        </div>
+        <nav>
+        <div class="contenedor">
+            <ul>
+                <li>
+                    <a class="burguer" href="#"><img src="img/menu.svg" alt="Menu"></a>
+                    <ul>
+                        <li class="actual"><a href="index.html">Inicio</a></li>
+                        <li><a href="menu/quienes-somos.html">Quiénes somos</a></li>
+                        <!-- <li><a href="menu/que-ofrecemos.html">Qué ofrecemos</a></li> -->
+                        <li><a  href="menu/tienda-online.php">Tienda online</a></li>
+                        <li><a href="menu/escribenos.php">Administrar</a></li>
+                        <li></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <a href="menu/carritoindex.php"><img id="carro" src="img/carrito.svg" alt="Carrito"></a>
+    </header>
+    
+    <main>
+    <div class="contenedor" id="cuerpo">
+        <div id="slider">
+            <ul class="bxslider">
+                <li><img src="img/familia.jpg" alt="Comiendo"></li>
+                <li><img src="img/carnes.jpg" alt="Carne"></li>
+                <li><img src="img/pescados.jpg" alt="Pescado"></li>
+                <li><img src="img/postres.jpg" alt="Postre"></li>
+            </ul>
+        </div>
+        <div id="imagencab"><img src="img/familia.jpg" alt="Comiendo"></div>
+        <section class="cajas">
+            <div class="caja" id="caja1">
+                <img src="img/tenedor.svg" alt="Tenedor">
+                <h2>Calidad</h2>
+                <p>Conservamos y mantenemos todas las propiedades, pasando el producto por altos estándares de calidad.</p>
+            </div>
+            <div class="caja" id="caja2">
+                <img src="img/cuchillo.svg" alt="Cuchillo">
+                <h2>Precio</h2>
+                <p>Actualizamos los precios diariamente, de acuerdo con las cotizaciones periódicas de nuestros proveedores.</p>
+            </div>
+            <div class="caja" id="caja3">
+                <img src="img/cuchara.svg" alt="Cuchara">
+                <h2>Logística</h2>
+                <p>Enviamos los pedidos con total seguridad, incluyendo los congelados en cajas de polispan con hielo seco.</p>
+            </div>
+        </section>
+        <div class="ajuste"></div>
+        <section id="articles" class="index">
+            <article>
+                <h3>Comprometidos con nuestros clientes</h3>
+                <p>En Novogusto trabajamos para que puedas hacer tu compra gastronómica cómodamente. Revisamos nuestro catálogo a diario para ofrecerte los mejores productos y el surtido más amplio: carnes, pescados, mariscos, gastronomía japonesa, pastas o arroces, entre muchas otras familias, que suman <span>más de 3.000 productos a precios inmejorables</span>.</p>
+                <p>Nuestro compromiso es la búsqueda de las necesidades de nuestros clientes y ofrecerles <span>los productos más punteros de la gastronomía</span>, introduciendo continuamente nuevas referencias e implicando a nuestros clientes.</p>
+            </article>
+            <article class="estrechoi">
+                <h4>> Carnes, pescados y mariscos</h4>
+                <p>Jamones, cefalópodos, salchichas, cigalas, hamburguesas artesanas, bacalao, langostinos, deliciosa carne de cerdo Duroc y de buey, moluscos, carabineros y todo tipo de carnes y pescados frescos y congelados.</p>
+            </article>
+            <article class="estrechod">
+                <h4>> Gastronomía japonesa</h4>
+                <p>Todo tipo de salsas, condimentos, congelados, cereales, aperitivos, postres, bebidas japonesas y todo lo relacionado con la modalidad 'street food', de gran actualidad, como nuestro delicioso y reconocido pan 'Gua Bao'.</p>
+            </article>
+            <article class="estrechoi">
+                <h4>> Pastas, arroces, legumbres y salsas</h4>
+                <p>Gran variedad de arroces (bomba, basmati...) y pastas italianas (raviolacci, canelones...), selección de legumbres artesanas y las mejores salsas del mundo, mahonesas, salsas de tomate, mostazas, aceites y muchas más.</p>
+            </article>
+            <article class="estrechod">
+                <h4>> Postres, sin gluten y mucho más</h4>
+                <p>Selección de postres, helados artesanos dulces y salados, frutas congeladas, siropes, así como productos sin gluten como macarrones, pan rallado, harina, crackers, baguettes o tarta de chocolate, y un larguísimo etcétera.</p>
+            </article>
+        </section>
+        <aside class="index">
+            <div class="asidetext">
+                <h3>Tu tienda online de gastronomía</h3>
+                <p>Novogusto es una tienda online de gastronomía, orientada tanto a <span>profesionales</span> del sector hostelero y grandes <span>chefs</span> como a <span>particulares</span> con inquietudes culinarias.</p>
+
+                <a target="_blank" href="menu/tienda-online.html" title="Tienda Online"><img src="img/tiendaonline.jpg" alt="Tienda Online"></a>
+                <p>Atendiendo a los tiempos que corren y gracias a una cuidada reducción de costes, surge con precios competitivos y productos de calidad.</p>
+            </div>
+
+
+        </aside>
+        <div class="ajuste"></div>
+    </div>
+</main>
+    <footer>
+        <div class="contenedor">
+            <div class="columna">
+                <h4>Boletín electrónico</h4>
+                <form action="" method="post">
+                    <input class="email" type="email" name="boletin" required placeholder=" Correo electrónico">
+                    <button type="submit">Enviar</button>
+                    <div class="checkbox">
+                        <input id="footeracepto" type="checkbox" name="condiciones" value="si" required>
+                         <label for="footeracepto"> Acepto el <a href="pie/avisolegal.html">aviso legal</a> y la <a href="pie/privacidad.html">política de privacidad</a></label>
+                    </div>
+                </form>
+            </div>
+            <div class="columna" id="redes">
+                <a target="_blank" href="https://www.facebook.com"><img class="redes" src="img/facebook.svg" alt="Facebook"></a>
+                <a target="_blank" href="https://www.twitter.com/"><img class="redes" src="img/twitter.svg" alt="Twitter"></a>
+                <a target="_blank" href="https://www.instagram.com"><img class="redes" src="img/instagram.svg" alt="Instagram"></a>
+                <a target="_blank" href="https://www.youtube.com"><img class="redes" src="img/youtube.svg" alt="YouTube"></a>
+                <a target="_blank" href="https://www.flickr.com"><img class="redes" src="img/flickr.svg" alt="Flickr"></a>
+            </div>
+            <div class="columna" id="textopie">
+                <h4>Atención al cliente</h4>
+                <p class="contacto">Teléfono: <a class="medio" href="tel:876247168">876 247 168</a></p>
+                <p class="contacto">WhatsApp: <a class="medio" href="tel:615935715">615 935 715</a></p>
+                <p class="contacto">E-mail: <a class="medio" href="mailto:info@novogusto.com">info@novogusto.com</a></p>
+            </div>
+            <div class="ajuste"></div>
+            <p class="linea"></p>
+            <p class="pie">2017 &copy; Redcomer Food, Sociedad Limitada · <a href="pie/privacidad.html">Política de privacidad</a> · <a href="pie/avisolegal.html">Aviso legal</a> · <a href="pie/cookies.html">Uso de cookies</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
