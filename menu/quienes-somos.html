@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda online de alimentación para profesionales, chefs y particulares">
+    <meta name="author" content="Alejandro Martitegui">
+    <title>Novogusto :: Quiénes somos</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="../js/jquery.bxslider.min.js"></script>
+    <script src="../js/jquery.cookiebar.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.bxslider').bxSlider({
+                auto: true,
+                pager: false,
+                mode: 'fade',
+                captions: true
+            });
+        });
+        
+        /* -- Política de Cookies -- */
+
+            $(document).ready(function() {
+            $.cookieBar();
+        });
+
+    </script>
+    <style>
+        #cuerpo {
+            background-color: white;
+            background-image: none;
+        }
+        
+        #ancho {
+            width: 94%;
+            padding: 0 3% 3% 3%;
+            line-height: 2em;
+        }
+        
+        h3 {
+            color: #BD3A49;
+            padding: 1em 0;
+        }
+        
+        section h3 {
+            font-size: 1.4em;
+            padding-top: 0;
+        }
+        
+        section p {
+            padding-bottom: 1em;
+        }
+        
+        .color {
+            color: #BD3A49;
+        }
+        
+        .color a {
+            color: #BD3A49;
+        }
+        
+        #imagencab {
+            padding-bottom: 2em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <h1>
+                <a href="../index.html"><img src="../img/logo_novogusto.svg" alt="Logotipo Novogusto" title="Inicio"></a>
+            </h1>
+            <form action="" method="get">
+                <input type="search" name="buscar" required placeholder=" Buscar...">
+                <input class="benviar" type="image" src="../img/lupa.png" alt="Enviar">
+            </form>
+            <div class="ajuste"></div>
+        </div>
+        <nav>
+        <div class="contenedor">
+            <ul>
+                <li>
+                    <a class="burguer" href="#"><img src="../img/menu.svg" alt="Menu"></a>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li class="actual"><a href="quienes-somos.html">Quiénes somos</a></li>
+                        <!-- <li><a href="que-ofrecemos.html">Qué ofrecemos</a></li> -->
+                        <li><a  href="../menu/tienda-online.php">Tienda online</a></li>
+                        <!-- <li><a  href="../menu/blog.html">Blog</a></li> -->
+                        <li><a href="escribenos.php">Administrar</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <a href="carritoindex.php"><img id="carro" src="../img/carrito.svg" alt="Carrito"></a>
+    </header>
+    <main>
+    <div class="contenedor" id="cuerpo">
+        <div id="slider">
+            <ul class="bxslider">
+                <li><img src="../img/findeslocos.png" alt="Findes Locos"></li>
+                <li><img src="../img/gastos_envio.png" alt="Gastos de envío"></li>
+                <li><img src="../img/dispositivos.png" alt="Cualquier dispositivo"></li>
+            </ul>
+        </div>
+        <div id="imagencab"><img src="../img/gastos_envio_mv.png" alt="Gastos de envío"></div>
+        <div class="ajuste"></div>
+        <section id="ancho">
+            <h3>Quiénes somos</h3>
+
+            <p>Novogusto es una tienda online de gastronomía, propiedad de <span class="color">RedComer Food S.L.</span>, orientada tanto a profesionales del sector hostelero y grandes chefs como a particulares con inquietudes culinarias que, atendiendo a los tiempos que corren y gracias a una cuidada reducción de costes, surge <span class="color">con unos precios muy competitivos para poder ofrecer productos de gran calidad.</span></p>
+
+            <p>Los márgenes aplicados de Novogusto son muy pequeños y, por eso, se actualizan todos los días, de acuerdo con las cotizaciones diarias de nuestros proveedores.</p>
+
+            <p>Nuestro compromiso es la búsqueda de las necesidades de nuestros clientes y <span class="color">ofrecerles los productos más punteros de la gastronomía</span>, introduciendo continuamente nuevas referencias e implicando a nuestros clientes. Gracias a nuestra gran red internacional de proveedores, reunimos una gran variedad de productos pero, si no encuentra un producto, consúltenos a través de nuestro <span class="color"><a class="enlaces" href="escribenos.html">formulario de contacto</a></span>.</p>
+        </section>
+    </div>
+</main>
+    <footer>
+        <div class="contenedor">
+            <div class="columna">
+                <h4>Boletín electrónico</h4>
+                <form action="" method="post">
+                    <input class="email" type="email" name="boletin" required placeholder=" Correo electrónico">
+                    <button type="submit">Enviar</button>
+                    <div class="checkbox">
+                        <input id="footeracepto" type="checkbox" name="condiciones" value="si" required>
+                         <label for="footeracepto"> Acepto el <a href="pie/avisolegal.html">aviso legal</a> y la <a href="pie/privacidad.html">política de privacidad</a></label>
+                    </div>
+                </form>
+            </div>
+            <div class="columna" id="redes">
+                <a target="_blank" href="https://www.facebook.com"><img class="redes" src="../img/facebook.svg" alt="Facebook"></a>
+                <a target="_blank" href="https://www.twitter.com"><img class="redes" src="../img/twitter.svg" alt="Twitter"></a>
+                <a target="_blank" href="https://www.instagram.com"><img class="redes" src="../img/instagram.svg" alt="Instagram"></a>
+                <a target="_blank" href="https://www.youtube.com"><img class="redes" src="../img/youtube.svg" alt="YouTube"></a>
+                <a target="_blank" href="https://www.flickr.com"><img class="redes" src="../img/flickr.svg" alt="Flickr"></a>
+            </div>
+            <div class="columna" id="textopie">
+                <h4>Atención al cliente</h4>
+                <p class="contacto">Teléfono: <a class="medio" href="tel:876247168">876 247 168</a></p>
+                <p class="contacto">WhatsApp: <a class="medio" href="tel:615935715">615 935 715</a></p>
+                <p class="contacto">E-mail: <a class="medio" href="mailto:info@novogusto.com">info@novogusto.com</a></p>
+            </div>
+            <div class="ajuste"></div>
+            <p class="linea"></p>
+            <p class="pie">2017 &copy; Redcomer Food, Sociedad Limitada · <a href="../pie/privacidad.html">Política de privacidad</a> · <a href="../pie/avisolegal.html">Aviso legal</a> · <a href="../pie/cookies.html">Uso de cookies</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
